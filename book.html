@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Now - Harry Luxury Hotel</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <a href="index.html">
+    <img src="images/logo.svg" alt="Harry Hotel Logo" class="logo">
+  </a>
+  <nav>
+    <a href="index.html" >Home</a>
+    <a href="rooms.html">Rooms</a>
+    <a href="dining.html">Dining</a>
+    <a href="bar.html">Bar</a>
+    <a href="services.html">Services</a>
+    <a href="contact.html">Contact</a>
+     <a href="about.html">About Us</a>
+    <a href="book.html" class="btn">Book Now</a>
+  </nav>
+  <div class="burger"><div></div><div></div><div></div></div>
+</header>
+
+
+  <section class="booking">
+    <h2>Book Your Stay</h2>
+    <form action="thankyou.html" method="GET">
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="checkin">Check-in Date</label>
+      <input type="date" id="checkin" name="checkin" required>
+
+      <label for="checkout">Check-out Date</label>
+      <input type="date" id="checkout" name="checkout" required>
+
+      <label for="room">Room Type</label>
+      <select id="room" name="room" required>
+        <option value="deluxe">Deluxe Room</option>
+        <option value="suite">Suite</option>
+        <option value="presidential">Presidential Suite</option>
+      </select>
+
+      <button type="submit">Confirm Booking</button>
+    </form>
+  </section>
+
+  <footer>
+    <div class="footer-top">
+      <!-- Left side (icons) -->
+      <div class="footer-left">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-x-twitter"></i></a>
+      </div>
+  
+      <!-- Right side (contact info) -->
+      <div class="footer-right">
+        <p>📞 +66 098 0709 630</p>
+        <p>📧 info@harryluxuryhotel.com</p>
+      </div>
+    </div>
+  
+    <div class="footer-bottom">
+      <p>📍 Bangkok, Thailand</p>
+      <p>© 2025 Harry Luxury Hotel</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
